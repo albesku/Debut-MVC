@@ -1,8 +1,8 @@
-<h1>Vagrant LAMP</h1>
+<h1>Debut MVC</h1>
 
-<p>Mi entorno de desarrollo LAMP (Linux, Apache, MySQL, PHP) para Vagrant.</p> 
+<p><b>Debut MVC</b> es una aplicación PHP simple basada en el patrón arquitectónico MVC. <b>Debut MVC</b> ofrece una base para desarrollar blogs sin mucha complejidad, siendo muy fácil de instalar y configurar.</p> 
 
-<p>Se trata de una máquina vagrant basada en <a href="https://github.com/luiscavero92/myMini">myMini</a> de luiscavero92, que a su vez, está basada sobre el proyecto PHP <a href="https://github.com/panique/mini">Mini</a>. Se trata de un servidor web, que incluye una plantilla llamada "Debut" la cual sigue el patrón MVC en PHP.</p>
+<p><b>Debut MVC</b> está basado sobre el proyecto PHP <a href="https://github.com/panique/mini">Mini</a>.</p>
 <h2>Requerimientos</h2>
 <ul>
   <li><a href="https://www.virtualbox.org">Virtualbox</a></li>
