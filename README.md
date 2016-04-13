@@ -18,7 +18,7 @@
       <li>La clase <a href="https://github.com/PHPMailer/PHPMailer">PHPMailer</a>.</li>
     </ul>
   </li>
-  <li>Última versión del administrador de base de datos <a href="https://www.adminer.org">Adminer</a></li>
+  <li>Última versión del administrador de base de datos <a href="https://www.adminer.org">Adminer</a>.</li>
 </ul>
 
 <h2>Requerimientos</h2>
