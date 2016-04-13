@@ -18,7 +18,7 @@
 DATABASE_SQL='database.sql' 				              # Base de datos.
 PASSWORD='123' 								       		  # Contraseña de la base de datos.
 PROJECTFOLDER='proyecto' 					  	   		  # Nombre del directorio del proyecto.
-GIT_REPOS='https://github.com/DanMnez/Vagrant-LAMP.git'   # Repositorios del proyecto.
+GIT_REPOS='https://github.com/DanMnez/Debut-MVC.git'   # Repositorios del proyecto.
 
 update() {
 	sudo apt-get update
@@ -100,8 +100,7 @@ sudo apt-get install -y git
 # ======================================================= #
 # Clona el repositorio 
 # ======================================================= #
-sudo git clone -b simulacion-blog "${GIT_REPOS}" "/var/www/html/${PROJECTFOLDER}"
-# sudo git clone "${GIT_REPOS}" "/var/www/html/${PROJECTFOLDER}"
+sudo git clone "${GIT_REPOS}" "/var/www/html/${PROJECTFOLDER}"
 
 # ======================================================= #
 # Descarga el administrador de MySQL Adminer
