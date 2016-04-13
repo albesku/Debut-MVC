@@ -9,7 +9,7 @@ Vagrant.configure(VERSION) do |config|
 
   # Configuración mínima del sistema. (https://www.vagrantup.com/docs/virtualbox/configuration.html)
   config.vm.provider "virtualbox" do |v|
-  	v.name = "Ubuntu.Server"
+  	v.name = "Ubuntu.Debut-MVC"
     v.memory = 1024
     v.cpus = 1
   end

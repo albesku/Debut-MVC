@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ======================================================= #
-# config.sh
+# config.sh - Configuración para Debut MVC
 #
 # Archivo de configuración automática para la box 
 # Ubuntu 14.04 en Vagrant.
@@ -18,7 +18,7 @@
 DATABASE_SQL='database.sql' 				              # Base de datos.
 PASSWORD='123' 								       		  # Contraseña de la base de datos.
 PROJECTFOLDER='proyecto' 					  	   		  # Nombre del directorio del proyecto.
-GIT_REPOS='https://github.com/DanMnez/Debut-MVC.git'   # Repositorios del proyecto.
+GIT_REPOS='https://github.com/DanMnez/Debut-MVC.git'      # Repositorios del proyecto.
 
 update() {
 	sudo apt-get update
